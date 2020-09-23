@@ -3,15 +3,15 @@ Sample Chat App using Flask SocketIO
 
 On Desktop
 
-![On Desktop](https://github.com/JonathanGun/flask-socketio-sample-chatapp/blob/master/screenshot/1.jpg)
+<img src="./screenshot/1.jpg">
 
-On Android 
+On Android
 
-![On Android](https://github.com/JonathanGun/flask-socketio-sample-chatapp/blob/master/screenshot/2.jpg)
+<img src="./screenshot/2.jpg" width="350px">
 
 On Dekstop
 
-![On Desktop 2](https://github.com/JonathanGun/flask-socketio-sample-chatapp/blob/master/screenshot/3.jpg)
+<img src="./screenshot/3.jpg">
 
 ## Prerequisite
 Python 3
