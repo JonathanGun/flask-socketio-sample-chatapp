@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Chat Room</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+
+<body>
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Chat Room</h5>
+  </div>
+  <div class="container">
+    <ul id="messages"></ul>
+    <div class="form-row align-items-center">
+      <div class="col-sm-3 my-1">
+        <input type="text" class="form-control" id="username" placeholder="Anonymous">
+      </div>
+      <div class="col-sm-3 my-1">
+        <input type="text" class="form-control" id="myMessage" placeholder="Hello!">
+      </div>
+      <button id="sendbutton" class="btn btn-primary">Send</button>
+    </div>
+</body>
+
+</html>
